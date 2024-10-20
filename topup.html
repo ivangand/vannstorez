@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Up</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">VannStorez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="panduan.html">Panduan</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light py-5 text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Top Up Mobile Legends</h1>
+            <p class="lead">Top up tercepat terpercaya dan murah</p>
+        </div>
+    </section>
+
+    <!-- Top Up Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Top Up Akun Mobile legend kamu</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <!-- User ID Field -->
+                        <div class="mb-3">
+                            <label for="userId" class="form-label">User ID</label>
+                            <input type="text" class="form-control" id="userId" placeholder="Masukan User ID" required>
+                        </div>
+                        <!-- Server ID Field -->
+                        <div class="mb-3">
+                            <label for="serverId" class="form-label">Server ID</label>
+                            <input type="text" class="form-control" id="serverId" placeholder="Masukan Server ID"
+                                required>
+                        </div>
+                        <!-- Package Selection -->
+                        <div class="mb-3">
+                            <label for="diamondPackage" class="form-label">Pilih Paket Diamond</label>
+                            <select class="form-select" id="diamondPackage" required>
+                                <option value="" disabled selected>Pilih Paket</option>
+                                <option value="50">55 Diamonds - Rp 14,000</option>
+                                <option value="100">110 Diamonds - Rp 30,000</option>
+                                <option value="250">296 Diamonds - Rp 80,000</option>
+                                <option value="500">705 Diamonds - Rp 175,000</option>
+                            </select>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Top Up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text">
+            <p>&copy; 2024 VannStorez. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

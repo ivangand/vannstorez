@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasa Mabar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">VannStorez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="panduan.html">Panduan</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-light py-5 text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Jasa Main Bareng (Mabar) Penjoki</h1>
+            <p class="lead">Bermain dengan pro player dan naikan rank kamu</p>
+        </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Booking sesi mabar kamu</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <!-- User Field -->
+                        <div class="mb-3">
+                            <label for="user" class="form-label">User</label>
+                            <input type="text" class="form-control" id="user" placeholder="Masukan username game"
+                                required>
+                        </div>
+                        <!-- Role Field -->
+                        <div class="mb-3">
+                            <label for="role" class="form-label">Role</label>
+                            <select class="form-select" id="role" required>
+                                <option value="" disabled selected>Pilih role kamu</option>
+                                <option value="tank">Tank</option>
+                                <option value="fighter">Fighter</option>
+                                <option value="mage">Mage</option>
+                                <option value="marksman">Marksman</option>
+                                <option value="assassin">Assassin</option>
+                                <option value="support">Support</option>
+                            </select>
+                        </div>
+                        <!-- Tanggal Main Field -->
+                        <div class="mb-3">
+                            <label for="tanggalMain" class="form-label">Tanggal Main</label>
+                            <input type="date" class="form-control" id="tanggalMain" required>
+                        </div>
+                        <!-- Jam Booking Field -->
+                        <div class="mb-3">
+                            <label for="jamBooking" class="form-label">Jam Booking</label>
+                            <input type="time" class="form-control" id="jamBooking" required>
+                        </div>
+                        <!-- Catatan Field -->
+                        <div class="mb-3">
+                            <label for="catatan" class="form-label">Catatan</label>
+                            <textarea class="form-control" id="catatan" rows="3"
+                                placeholder="Catatan untuk request"></textarea>
+                        </div>
+                        <!-- Save Information Button -->
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary btn-lg">Save Information</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Paket Mabar</h2>
+            <div class="row">
+                <!-- Card 1: Mabar Package -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="mabar1.jpeg" class="card-img-top" alt="Mabar Package">
+                        <div class="card-body">
+                            <h5 class="card-title">Mabar for Fun</h5>
+                            <p class="card-text">Mabar have fun classic atau pun ranked</p>
+                            <p class="card-text fw-bold">Harga: Rp 12,000 ( 5 match )</p>
+                            <a href="https://www.takapedia.com/id-id/jasa-main-bareng-jasa-mabar-penjoki?from=aHR0cHM6Ly9zZWFyY2gueWFob28uY29tLw%3D%3D" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2: Rank Boost -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="mabar2.jpeg" class="card-img-top" alt="Rank Boost Package">
+                        <div class="card-body">
+                            <h5 class="card-title">Mabar Rank Boost</h5>
+                            <p class="card-text">Mabar rank biar jago</p>
+                            <p class="card-text fw-bold">Price: Rp 20,000 ( 3 match )</p>
+                            <a href="https://www.takapedia.com/id-id/jasa-main-bareng-jasa-mabar-penjoki?from=aHR0cHM6Ly9zZWFyY2gueWFob28uY29tLw%3D%3D" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 3: Coaching Sessions -->
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="mabar3.jpeg" class="card-img-top" alt="Coaching Package">
+                        <div class="card-body">
+                            <h5 class="card-title">Mabar b viewer</h5>
+                            <p class="card-text">mabar bareng viewer
+                            </p>
+                            <p class="card-text fw-bold">Harga: Rp 7,000 ( 2 match )</p>
+                            <a href="https://www.takapedia.com/id-id/jasa-main-bareng-jasa-mabar-penjoki?from=aHR0cHM6Ly9zZWFyY2gueWFob28uY29tLw%3D%3D" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Apa Kata Klien Kami</h2>
+            <div class="row">
+                <!-- Testimonial 1 -->
+                <div class="col-md-4">
+                    <blockquote class="blockquote text-center">
+                        <p>"Pengalaman yang luar biasa! Saya naik peringkat dengan cepat berkat bantuan mereka."</p>
+                        <footer class="blockquote-footer">Lemon, Player MPL</footer>
+                    </blockquote>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="col-md-4">
+                    <blockquote class="blockquote text-center">
+                        <p>"Sesi menonton benar-benar meningkatkan permainan saya. Sangat direkomendasikan!"</p>
+                        <footer class="blockquote-footer">Takapedia, Mantan Global</footer>
+                    </blockquote>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="col-md-4">
+                    <blockquote class="blockquote text-center">
+                        <p>"Ramah, profesional, dan menyenangkan. Layanan Mabar terbaik yang pernah saya coba!"</p>
+                        <footer class="blockquote-footer">Tazz, Anak MDL</footer>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3">
+        <div class="container text">
+            <p>&copy; 2024 VannStorez. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
